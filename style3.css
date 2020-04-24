@@ -1,0 +1,18 @@
+body
+{
+    background-color: black;
+}
+.topnav
+{
+    background-color: white;
+    padding: 10px;
+}
+span
+{
+    float: right;
+}
+img
+{
+    width: 30px;
+    height: 30px;
+}

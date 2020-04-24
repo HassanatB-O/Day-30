@@ -1,0 +1,108 @@
+body
+{
+    background-color: wheat;
+}
+.topnav
+{
+    background-color: white;
+    padding: 10px;
+}
+span
+{
+    float: right;
+}
+img
+{
+    width: 30px;
+    height: 30px;
+}
+h1
+{
+    font-size: 90px;
+    text-align: center;
+    color: darkslateblue;
+}
+.main
+{
+    display: flex;
+}
+input
+{
+    padding: 5px;
+    margin-top: 15px;
+    width: 95%;
+    border-radius: 5px;
+}
+.S1
+{
+    width: 50%;
+}
+.S2
+{
+    width: 24%;
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+}
+button
+{
+    background-color: darkslateblue;
+    width: 140px;
+    border: none;
+    border-radius: 22px;
+    padding: 15px;
+    margin-left: 120px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+}
+p
+{
+    text-align: center;
+}
+footer
+{
+    text-align: center;
+}
+@media only screen and (max-width: 480px)
+{
+    .topnav
+    {
+        font-size: small;
+        padding: 0;
+        height: 50px;
+    }
+    .main
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #DL
+    {
+        margin-left: 285px;
+    }
+    .S1
+    {
+        width: 20px;
+    }
+    h1
+    {
+        font-size: 50px;
+    }
+    span
+    {
+        margin-bottom: 30px;
+        padding: 0%;
+    }
+    .S2
+    {
+        float: right;
+        padding: 0;
+        width: 350px;
+    }
+    input
+    {
+        width: 95%;
+    }
+}
